@@ -1,0 +1,239 @@
+ html{
+    font-size: 10px;
+ }
+
+/*start header*/
+ *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+ }
+ .home_header{
+    padding-left: 10rem;
+    padding-right: 10rem;
+    width: 100%;
+ }
+ .nabar_ta{
+    display: flex;
+    justify-content: space-between;
+ }
+.home_header_titel{
+    padding-top: 1.4rem;
+    display: flex;
+    left: 1rem;
+    align-items:center;
+    justify-content:space-between;
+}
+.home_header_icon{
+    background-color: #094B72;
+    border-radius: 100%;
+    padding-left: 1.2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-right: 1.2rem;
+    font-size: 3rem;
+    color: aliceblue;
+    text-shadow: 0.12rem 0.13rem #000000;
+}
+.navbar{
+    font-size: 1.5rem;
+    align-items: center;
+    padding-right: 1.4rem;
+    padding-left: 1.4rem;
+    color: #3d3d3d;
+}
+.navbar_icon{
+    position: absolute;
+    padding-left: 0.7rem;
+}
+/*end header*/
+
+/*start section1 home page*/
+.container{
+    padding-top: 4rem;
+}
+ .home_container{
+    padding-left: 10rem;
+    padding-right: 10rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 77rem;
+ }
+.home_container1{
+    display: flexbox;
+}
+.home_header_titel_titreprincipal{ 
+    font-size: 3rem !important;
+}
+.home_container1_tital{
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+    color: #125f8d;
+    font-size: 6rem;
+}
+p{
+ width: 38%;
+ font-size: 2rem;
+ color: #4a4a4a;
+}
+.home_container1_button{ 
+    margin-top: 2rem;
+    background-color: #094B72;
+    padding: 2rem;
+    border-radius: 0.7rem 0.7rem;
+    color: aliceblue;
+    margin-bottom: 10rem;
+}
+.home_container2{
+    display: flexbox;
+}
+.cyrcl1{
+    position: absolute;
+    background-color: #307aa41d;
+    width: 50rem;
+    height: 50rem;
+    border-radius: 100%;
+    top: 9rem;
+    right: 8rem;
+}
+.cyrcl2{
+    position: absolute;
+    background-color: #3f8dba3d;
+    width: 40rem;
+    height: 40rem;
+    border-radius: 100%;
+    right: 13rem;
+    top: 9rem;
+}
+.image_home{
+    position: absolute;
+    width: 45rem;
+    top: 15rem;
+    right: 10rem;
+}
+.nom_de_server_home{
+    position: absolute;
+    background-color: #ffffff;
+    padding-left:6rem;
+    padding-right: 6rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 0.7rem 0.7rem;
+    font-size: 2rem;
+    box-shadow: 0 0.5rem 1.1rem  #93939336;
+    top: 77rem;
+    right: 21rem;
+ }
+ .fill_under_the_img{
+    position: absolute;
+    width: 100%;
+    height: 6rem;
+    background-color:#F2F7FF ;
+    top: 84rem;
+    right: 0;
+ }
+ .company_icon{
+    /* cegedim inetum capgemini */
+ padding-top: 2rem;
+}
+  /*end section 1  home page*/
+
+
+  /*start section 2  home page*/
+  .section2_dimention{
+    background-color:#F2F7FF;
+    padding-bottom: 10rem;
+    padding-top: 6rem;
+  }
+  .container_section2{
+     display: flex;
+     justify-content: space-between;
+  }
+  .tital_help_cection2{
+  font-size: 3rem;
+  padding-left: 22rem;
+  padding-top:9rem;
+  padding-bottom: 4rem;
+  width: 55rem;
+}
+  .parhragh_help_cection2{
+    width: 47rem;
+    padding-left: 22rem;
+  }
+  .all_block_sirvice{
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: 21rem;
+}
+  .sirvice_block{
+    margin-right: 2rem;
+    margin-top: 2rem;
+    background-color: #FCFCFC;
+    width: 22rem;
+    height: 18rem;
+    padding-left: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    box-shadow: 0 0.5rem 1.5rem rgba(66, 66, 66, 0.329);
+    border-radius: 0.7rem 0.7rem;
+    
+  }
+  .sirvice_block_icon{ 
+  }
+  .sirvice_block_tatil{
+    font-size: 2rem;
+    width: 16rem;
+  }
+  .sirvice_block_paragraph{
+    font-size: 1rem;
+    padding-top: 1rem;
+    width: 13rem;
+    color: #686868;
+  }
+  /* start section3 */
+  .container_secyion3{
+    background-image: url("images/back_ground_section3.svg");
+    padding-bottom: 3rem;
+  }
+  .tital_section3{
+    font-size: 5rem;
+    font-weight: bolder;
+    text-align: center;
+    color: white;
+    padding-top: 4rem;
+    padding-bottom: 1rem;
+  }
+  .paragraph_section3{
+    text-align: center;
+    color: #F2F7FF;
+    font-size: 2rem;
+    padding-bottom: 6rem;
+  }
+  .div_for_flex_wraps3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .sou_box_size{
+     width: 30rem;
+     border-right: 1px solid #f2f7ff8e;
+     height: 9rem;
+  }
+  .sou_box_size_noboreser{
+    width: 30rem;
+    height: 9rem;
+ }
+  .div_for_flex_boxs3{
+    text-align: center;
+    display: flexbox;
+  }
+  .sou_box_size_t{
+    font-size: 6rem;
+    color: white;
+    font-weight: bolder;
+  }
+  .sou_box_size_p{
+      font-size: 1.8rem;
+      color: white;
+  }

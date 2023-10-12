@@ -1,239 +1,338 @@
- html{
-    font-size: 10px;
- }
+html{
+  font-size: 10px;
+}
 
 /*start header*/
- *{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
- }
- .home_header{
-    padding-left: 10rem;
-    padding-right: 10rem;
-    width: 100%;
- }
- .nabar_ta{
-    display: flex;
-    justify-content: space-between;
- }
-.home_header_titel{
-    padding-top: 1.4rem;
-    display: flex;
-    left: 1rem;
-    align-items:center;
-    justify-content:space-between;
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
-.home_header_icon{
-    background-color: #094B72;
-    border-radius: 100%;
-    padding-left: 1.2rem;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    padding-right: 1.2rem;
-    font-size: 3rem;
-    color: aliceblue;
-    text-shadow: 0.12rem 0.13rem #000000;
+.header{
+  padding-left: 17rem;
+  padding-right: 17rem;
+  width: 100%;
 }
-.navbar{
-    font-size: 1.5rem;
-    align-items: center;
-    padding-right: 1.4rem;
-    padding-left: 1.4rem;
-    color: #3d3d3d;
+.nabar_options{
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+.navbar_icon_and_title{
+  padding-top: 1.4rem;
+  display: flex;
+  left: 1rem;
+  align-items:center;
+  justify-content:space-between;
 }
 .navbar_icon{
-    position: absolute;
-    padding-left: 0.7rem;
+  background-color: #094B72;
+  border-radius: 100%;
+  padding-left: 1.2rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-right: 1.2rem;
+  font-size: 3rem;
+  color: aliceblue;
+  text-shadow: 0.12rem 0.13rem #000000;
+}
+.navbar_title{ 
+font-size: 3rem ;
+}
+.option{
+  font-size: 1.5rem;
+  align-items: center;
+  padding-right: 1.4rem;
+  padding-left: 1.4rem;
+  color: #3d3d3d;
+}
+.option_icon{
+  padding-left: 7rem;
 }
 /*end header*/
 
 /*start section1 home page*/
+.containers{
+ 
+}
 .container{
-    padding-top: 4rem;
+  padding-left: 20rem;
+  padding-top: 4rem;
+  padding-left: 4rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
- .home_container{
-    padding-left: 10rem;
-    padding-right: 10rem;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    height: 77rem;
- }
-.home_container1{
-    display: flexbox;
+/* ----------------- */
+.container1{
+  display:flexbox;
 }
-.home_header_titel_titreprincipal{ 
-    font-size: 3rem !important;
+
+.container1_title{
+  padding-top: 5rem;
+  padding-bottom: 2rem;
+  color: #125f8d;
+  font-size: 6rem;
 }
-.home_container1_tital{
-    padding-top: 5rem;
-    padding-bottom: 2rem;
-    color: #125f8d;
-    font-size: 6rem;
+.container_paragraph{
+width: 38%;
+font-size: 2rem;
+color: #4a4a4a;
 }
-p{
- width: 38%;
- font-size: 2rem;
- color: #4a4a4a;
+.button1{ 
+  margin-top: 2rem;
+  background-color: #094B72;
+  padding-block: 1.3rem;
+  padding-inline: 2rem;
+  border-radius: 0.7rem 0.7rem;
+  color: aliceblue;
+  margin-bottom: 10rem;
 }
-.home_container1_button{ 
-    margin-top: 2rem;
-    background-color: #094B72;
-    padding: 2rem;
-    border-radius: 0.7rem 0.7rem;
-    color: aliceblue;
-    margin-bottom: 10rem;
+h6{
+font-size: 1.5rem;
+color: #8B8C8C;
 }
-.home_container2{
-    display: flexbox;
+.company_icons{
+padding-block: 2rem; 
 }
-.cyrcl1{
-    position: absolute;
-    background-color: #307aa41d;
-    width: 50rem;
-    height: 50rem;
-    border-radius: 100%;
-    top: 9rem;
-    right: 8rem;
+/* ----------------------- */
+.container2{
+position: relative;
+height: 75rem;
+padding-left: 20rem;
+width: 30rem;
 }
-.cyrcl2{
-    position: absolute;
-    background-color: #3f8dba3d;
-    width: 40rem;
-    height: 40rem;
-    border-radius: 100%;
-    right: 13rem;
-    top: 9rem;
+.cercle_big{
+  position: absolute;
+  background-color: #307aa41d;
+  width: 50rem;
+  height: 50rem;
+  border-radius: 100%;
+  top: 2rem;
+  right: 2rem;
 }
-.image_home{
-    position: absolute;
-    width: 45rem;
-    top: 15rem;
-    right: 10rem;
+.cercle_small{
+  position: absolute;
+  background-color: #3f8dba3d;
+  width: 40rem;
+  height: 40rem;
+  border-radius: 100%;
+  right: 7rem;
+  top: 2rem;
 }
-.nom_de_server_home{
-    position: absolute;
-    background-color: #ffffff;
-    padding-left:6rem;
-    padding-right: 6rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    border-radius: 0.7rem 0.7rem;
-    font-size: 2rem;
-    box-shadow: 0 0.5rem 1.1rem  #93939336;
-    top: 77rem;
-    right: 21rem;
- }
- .fill_under_the_img{
-    position: absolute;
-    width: 100%;
-    height: 6rem;
-    background-color:#F2F7FF ;
-    top: 84rem;
-    right: 0;
- }
- .company_icon{
-    /* cegedim inetum capgemini */
- padding-top: 2rem;
+.image_home_man{
+  position: absolute;
+  width: 45rem;
+  top: 7rem;
+  right: 4rem;
 }
-  /*end section 1  home page*/
+.fullname_man{
+  position: absolute;
+  background-color: #ffffff;
+  width: 30rem;
+  padding-block: 1.5rem;
+  padding-inline: 1rem;
+  border-radius: 0.7rem 0.7rem;
+  font-size: 2rem;
+  box-shadow: 0 0.5rem 1.1rem  #93939336;
+  top: 71rem;
+  right: 14rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+}
 
 
-  /*start section 2  home page*/
-  .section2_dimention{
-    background-color:#F2F7FF;
-    padding-bottom: 10rem;
-    padding-top: 6rem;
-  }
-  .container_section2{
-     display: flex;
-     justify-content: space-between;
-  }
-  .tital_help_cection2{
-  font-size: 3rem;
-  padding-left: 22rem;
-  padding-top:9rem;
+/*end section 1  home page*/
+
+
+/*start section 2  home page*/
+.home_service{
+  background-color:#F2F7FF;
+  padding-bottom: 10rem;
+  padding-top: 6rem;
+}
+.container_section2_home_service{
+   display: flex;
+   justify-content: space-around;
+}
+.section2_home_service_title{
+font-size: 3rem;
+padding-left: 18rem;
+padding-top:9rem;
+padding-right: 2rem;
+padding-bottom: 4rem;
+width: 55rem;
+}
+.section2_home_service_paragraph{
+  width: 47rem;
+  padding-left: 18rem;
+  font-size: 1.7rem;
+  color: #686868;
+}
+.all_block_sirvice{
+  display: flex;
+  flex-wrap: wrap;
+  padding-right: 21rem;
+}
+.sirvice_block{
+  margin-right: 2rem;
+  margin-top: 2rem;
+  background-color: #FCFCFC;
+  width: 22rem;
+  height: 18rem;
+  padding-left: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  box-shadow: 0 0.5rem 1.5rem rgba(66, 66, 66, 0.329);
+  border-radius: 0.7rem 0.7rem;
+  
+}
+.sirvice_block_icon{ 
+}
+.sirvice_block_tatil{
+  font-size: 2rem;
+  width: 16rem;
+}
+.sirvice_block_paragraph{
+  font-size: 1rem;
+  padding-top: 1rem;
+  width: 13rem;
+  color: #686868;
+}
+/* start section3 statistique */
+.container_statistique_section3{
+  background-image: url("images/back_ground_section3.svg");
+  padding-bottom: 5rem;
+}
+.tital_section3{
+  font-size: 5rem;
+  font-weight: bolder;
+  text-align: center;
+  color: white;
+  padding-top: 4rem;
+  padding-bottom: 1rem;
+}
+.paragraph_section3{
+  text-align: center;
+  color: #F2F7FF;
+  font-size: 2rem;
+  padding-bottom: 6rem;
+}
+.all_statistique{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.box_size_with_border{
+   width: 30rem;
+   border-right: 1px solid #f2f7ff8e;
+   height: 9rem;
+}
+.box_size{
+  width: 30rem;
+  height: 9rem;
+}
+.box_content{
+  text-align: center;
+  display: flexbox;
+}
+.box_content_title{
+  font-size: 6rem;
+  color: white;
+  font-weight: bolder;
+}
+.box_content_paragraph{
+    font-size: 1.8rem;
+    color: white;
+}
+/* end section3 */
+
+/*start section4 Testimonial */
+
+.Testimonial_container{
+  background-color:#F2F7FF;
+  padding-bottom: 5rem;
+}
+.title_Testimonial{
+  padding-top: 6rem;
+  text-align: center;
+  font-size: 6rem;
   padding-bottom: 4rem;
-  width: 55rem;
 }
-  .parhragh_help_cection2{
-    width: 47rem;
-    padding-left: 22rem;
-  }
-  .all_block_sirvice{
-    display: flex;
-    flex-wrap: wrap;
-    padding-right: 21rem;
+.Testimonial_container_blocks{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  
 }
-  .sirvice_block{
-    margin-right: 2rem;
-    margin-top: 2rem;
-    background-color: #FCFCFC;
-    width: 22rem;
-    height: 18rem;
-    padding-left: 2rem;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    box-shadow: 0 0.5rem 1.5rem rgba(66, 66, 66, 0.329);
-    border-radius: 0.7rem 0.7rem;
-    
-  }
-  .sirvice_block_icon{ 
-  }
-  .sirvice_block_tatil{
-    font-size: 2rem;
-    width: 16rem;
-  }
-  .sirvice_block_paragraph{
-    font-size: 1rem;
-    padding-top: 1rem;
-    width: 13rem;
-    color: #686868;
-  }
-  /* start section3 */
-  .container_secyion3{
-    background-image: url("images/back_ground_section3.svg");
-    padding-bottom: 3rem;
-  }
-  .tital_section3{
-    font-size: 5rem;
-    font-weight: bolder;
-    text-align: center;
-    color: white;
-    padding-top: 4rem;
-    padding-bottom: 1rem;
-  }
-  .paragraph_section3{
-    text-align: center;
-    color: #F2F7FF;
-    font-size: 2rem;
-    padding-bottom: 6rem;
-  }
-  .div_for_flex_wraps3{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  .sou_box_size{
-     width: 30rem;
-     border-right: 1px solid #f2f7ff8e;
-     height: 9rem;
-  }
-  .sou_box_size_noboreser{
-    width: 30rem;
-    height: 9rem;
- }
-  .div_for_flex_boxs3{
-    text-align: center;
-    display: flexbox;
-  }
-  .sou_box_size_t{
-    font-size: 6rem;
-    color: white;
-    font-weight: bolder;
-  }
-  .sou_box_size_p{
-      font-size: 1.8rem;
-      color: white;
-  }
+.Testimonial_sou_block{
+  height: 25rem;
+}
+ 
+.Testimonial_block_comment{
+  position: relative;
+  width: 48rem;
+  min-height: 18rem;
+  text-align: center;
+  padding-block: 1rem;
+  padding-inline: 2rem;
+  background-color: white;
+  border-radius: 1rem 1rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.Testimonial_block_comment::after{
+  content: " ";
+  display: inline-block;
+  position: absolute;
+  width: 2rem;
+  height: 2rem;
+  background-color:  rgb(255, 255, 255);
+  bottom: -0.9rem;
+  border-radius: 0.2rem 0.2rem;
+  transform: rotate(45deg);
+}
+.Testimonial_block_comment_tital{
+  font-size: 2.3rem;
+  padding: 1.5rem;
+  color: #2D2F30;
+}
+.Testimonial_block_comment_paragragh{
+  font-size: 1.5rem;
+  color: #686868;
+}
+.Testimonial_container_blocks_nom_client{
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 2.5rem; 
+  align-items: center;
+}
+.Testimonial_container_blocks_work_client{
+  color: #686868;
+}
+/* end section4 Testimonial */
+/* <!-- start section5 contact home --> */
+.home_contact{
+  padding-top: 10rem;
+  padding-left: 22rem;
+}
+.home_contact_tatil{
+  
+  font-size: 4rem;
+}
+.home_contact_paragraph{
+  color:#686868 ;
+  padding-top: 4rem;
+  padding-bottom: 3rem;
+  width: 45%;
+}
+.flex_button_contact_home{
+  display: flex;
+  justify-content: space-around;
+  width: 19rem;
+  align-items: center;
+  font-size: 1.5rem;
+}

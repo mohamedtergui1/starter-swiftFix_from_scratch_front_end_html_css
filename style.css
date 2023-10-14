@@ -117,8 +117,9 @@ color: #303131;
 font-family:Plus Jakarta Sans ;
 }
 .company_icons{
-font-family: Plus Jakarta Sans;
-padding-block: 1rem; 
+padding-block: 1rem;
+width:28rem ; 
+height:10.4 rem;
 }
 /* ----------------------- */
 .container2{

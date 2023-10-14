@@ -74,10 +74,9 @@
     justify-content: center;
  }
 /* ----------------- */
-.container1{
+/* .container1{
     display:flexbox;
-   
-}
+} */
  .container1_title{
     padding-top: 2rem;
     color: #125f8d;
@@ -106,9 +105,14 @@
   background-color: transparent;
   color: #094B72;
 }
+.button1:hover svg {
+  filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(165deg) brightness(60%) contrast(119%);
+}
+
+
 .trusted_companies{
   font-size: 1.5rem;
-  color: #8B8C8C;
+  color: #303131;
   font-family:Plus Jakarta Sans ;
 }
 .company_icons{
@@ -190,7 +194,7 @@
     width: 47rem;
     padding-left: 18rem;
     font-size: 1.7rem;
-    color: var(--neutral-grey-5, #8B8C8C);
+    color: var(--neutral-grey-5, #2b2b2b);
     font-family: Poppins;
     font-weight: bold;
   }
@@ -211,22 +215,26 @@
     padding-left: 2rem;
     padding-top: 2rem;
     padding-bottom: 20rem;
-    box-shadow: 0 0.5rem 1.5rem rgba(66, 66, 66, 0.329);
+    box-shadow: 0 0.5rem 1.5rem rgba(37, 37, 37, 0.329);
     border-radius: 0.7rem 0.7rem;
    
   }
+  
   .service_block_icon{ 
   }
   .service_block_title{
     font-size: 1.1rem;
     width: 16rem;
+  padding-top: 0.5rem;
   }
   .service_block_paragraph{
     font-size: 1.15rem;
     /* padding-top: 1rem; */
     width: 13rem;
-    color: var(--neutral-grey-5, #5a5a5a);
+    color: var(--neutral-grey-5, #141313);
     font-family: Plus Jakarta Sans;
+    padding-top: 0.7rem;
+    font-weight: 560;
   }
   /* end service*/
 
@@ -269,7 +277,7 @@
  }
   .box_content{
     text-align: center;
-    display: flexbox;
+     
   }
   .box_content_title{
     font-size: 6rem;
@@ -331,12 +339,12 @@
   .Testimonial_block_comment_title{
     font-size: 2rem;
     padding: 1.4rem;
-    color: #2D2F30;
+    color: #000000;
     font-weight: bolder;
   }
   .Testimonial_block_comment_paragragh{
     font-size: 1.5rem;
-    color: #888888;
+    color: #2a2a2a;
     font-weight: 600;
   }
   .Testimonial_container_blocks_nom_client{
@@ -347,7 +355,7 @@
     align-items: center;
   }
   .Testimonial_container_blocks_work_client{
-    color: #686868;
+    color:#494949;
   }
   /* end section4 Testimonial */
 
@@ -361,7 +369,7 @@
     font-family: Playfair Display;
   }
   .home_contact_paragraph{
-    color:#686868 ;
+    color:#393939 ;
     padding-top: 2rem;
     padding-bottom: 3rem;
     width: 50rem;
@@ -389,6 +397,12 @@
    display:flex;
    align-items: center;
   }
+  .nom_de_site_web a{
+    color: rgb(255, 255, 255);
+  }
+  .logo_icon a{
+    color: #094B72;
+  }
   .logo_icon{
       color: #094B72;
       padding-block: 1.5rem;
@@ -414,7 +428,7 @@
     font-size: 2rem;
     padding-bottom: 2rem;
   }
-  h4{
+  .les_info p{
     padding-block: 1rem;
     font-size: 1.4rem;
     color: #EEEFF4;
@@ -437,15 +451,14 @@
   margin-inline: 1rem;
   }
   /* end footer */
-  /* start contact page */
-  
 
+  /* start contact page */
   .container_contact_page{
     padding-inline: 22rem;
     padding-top: 3rem;
     
    }
-   .container_contact_page h1{
+   .container_contact_page h2{
      font-size: 6rem;  
      background-color: #1f97dc76;
      border-bottom-right-radius: 100%;
@@ -534,3 +547,4 @@
     padding-left: 25rem;
   }
   /* end service pade */
+  

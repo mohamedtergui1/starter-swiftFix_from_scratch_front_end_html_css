@@ -472,8 +472,10 @@ margin-inline: 1rem;
    border-top-left-radius: 100%;
    width: 50rem;
  }
- .container_contact_page div{
-    
+ 
+ .contact_flex_map{
+  display: flex;
+   justify-content: space-around;
  }
  .info_client{
    display: flex;
@@ -481,10 +483,10 @@ margin-inline: 1rem;
    align-content: space-around;
    font-size: 2rem;
    gap: 2rem;
-   padding-block: 2rem;
+   padding-block: 1rem;
    width: 50rem;
  }
-
+ 
  .input_style{
   padding-block: 0.6rem;
   border-radius: 0.6rem 0.6rem;
@@ -504,6 +506,13 @@ margin-inline: 1rem;
   .input_submit{
     width: 12rem;
   }
+  .google_map{
+    margin-left: 2rem;
+    border-radius: 0.6rem 0.6rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    height: 50rem;
+    width: 50rem;
+  }
    
 /* end contact page */
 
@@ -511,9 +520,7 @@ margin-inline: 1rem;
 
 .container_about_page{
 display: flex;
- 
 justify-content: center
- 
 }
 .container_about_page h1{
 
@@ -530,6 +537,10 @@ font-family: sans-serif;
 }
 .container_about_page div{
 padding-top: 8rem;
+}
+.image_contact_man{
+  width: 50rem;
+  height: 54rem;
 }
 
 

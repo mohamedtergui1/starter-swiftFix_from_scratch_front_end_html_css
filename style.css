@@ -132,6 +132,7 @@ font-family:Plus Jakarta Sans ;
 .company_icons{
 padding-block: 1rem;
 width:28rem ; 
+height: 11.4rem;
 }
 /* ----------------------- */
 .container2{
@@ -566,6 +567,10 @@ font-family: sans-serif;
 }
 .container_about_page div{
 padding-top: 8rem;
+}
+.button_about{
+  font-size: 1.8rem;
+  margin-top: 2rem;
 }
 .image_contact_man{
   width: 50rem;

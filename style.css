@@ -592,21 +592,7 @@ padding-top: 8rem;
   justify-content: center;
   padding-left: 25rem;
 }
-/* end service page */
-
-
  
-
-
-  
- 
-
-
-   
-
-   
-  
-  /* <!-- start about page --> */
 
 .container_about_page{
   display: flex;
@@ -682,16 +668,101 @@ padding-top: 8rem;
       font-size: 5px;
     }
   }
-  @media  (max-width: 718px) {
+  @media  (max-width: 650px) {
     html{
       font-size: 4.5px;
     }
+   .header{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 100%;
+    font-family: Poppins;
+    padding-bottom: 1rem;
+    padding-top: 0.5rem;
+   }
+    
+   .navbar_logo_and_options {
+    padding-top: 1.4rem;
+    display: flex;
+    left: 1rem;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+    align-content: space-between;
+}
+   .nabar_options{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  list-style: none; 
+  gap: 2rem;
+  padding-block: 5rem;
   }
-  @media  (max-width: 360px) {
-
-    html{
-      font-size: 2.5px;
-    }
+   .containers{
+    padding-left: 0.5rem;
   }
+  .container{
+    padding-top: 4rem;
+    padding-left: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-end;
+  }
+  .container2 {
+    margin-left: 35rem;
+    position: relative;
+    height: 75rem;
+    
+    width: 30rem;
+}
+  .container_section2_home_service {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    gap: 2rem;
+    padding-left: 5rem;
+}
+  .all_block_service {
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: 5rem;
+    gap: 2rem;
+    padding-top: 3rem;
+}  
+.Testimonial_container_blocks {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-items: center;
+  align-content: space-around;
+} 
+.container_contact_page {
+  padding-inline: 10rem;
+  padding-top: 3rem;
+}
+.contact_flex_map {
+  display: flex;
+  flex-direction: column;
+  padding-top: 2rem;
    
-  
+}
+.services_block {
+  justify-content: center;
+  padding-left: 6rem;
+}
+.container_about_page {
+  padding-left: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+}
+.home_contact {
+  padding-top: 6rem;
+  padding-left: 4rem;
+}
+.container_contact_page {
+  padding-inline: 3rem;
+  padding-top: 3rem;
+}
+ 
+  }

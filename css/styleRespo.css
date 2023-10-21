@@ -1,0 +1,317 @@
+@media  (max-width: 1440px) {
+    html{
+      font-size: 9.5px;
+    }
+  }
+  @media  (max-width: 1370px) {
+    html{
+      font-size: 9px;
+    }
+  }
+  @media  (max-width: 1360px) {
+    html{
+      font-size: 8px;
+    }
+  }
+  @media (max-width: 1152px) {
+    html{
+      font-size: 7px;
+    }
+  }
+  /* --------------------------------------- */
+  @media  (max-width: 1023px) {
+    html{
+      font-size: 7px;
+    }
+    .header{
+     padding-block: 1rem;
+     padding-inline: 3rem;
+    }
+    ..services_droped{
+      position:static;
+      box-shadow: none;
+    }
+    .tige_center_a{
+      transition: 0.5s ease-in-out;
+       transform: rotate(0);
+      top: 2.6rem;
+     right: 0.6rem;
+     scale: 1.2;
+   }
+   .tige_center_b{
+    transition: 0.5s ease-in-out;
+     transform: rotate(0);
+     top: 0.5rem;
+     right: 0.6rem;
+     scale: 1.2;
+   }
+   .tige_center_c{
+     top: 1.549rem;
+     right: 0.6rem;
+     scale: 1.2;
+     display: block;
+   }
+   /* -------------animation  open menu----------------- */
+   .icon_open_option{
+    scale: 1;
+    display: block;
+    height: 3.8rem;
+    width: 3.8rem;
+    background-color: #094060;
+    border-radius: 1rem 1rem;
+  }
+   .tige_a{
+    transition: 0.5s ease-in-out;
+    /* filter: invert(98%) sepia(79%) saturate(2476%) hue-rotate(0deg) brightness(118%) contrast(119%); */
+    transform: rotate(45deg);
+    top: 1.5rem;
+    right: 0.6rem;
+    scale: 1.6;
+ }
+ .tige_b{
+   transition: 0.5s ease-in-out;
+   /* filter: invert(98%) sepia(79%) saturate(2476%) hue-rotate(0deg) brightness(118%) contrast(119%); */
+   transform: rotate(135deg);
+   top: 1.5rem;
+   right: 0.6rem;
+   scale: 1.6;
+ }
+ .tige_c{
+   transition: 0.5s ease-in-out;
+   top: 1.5rem;
+   right: 0.6rem;
+   scale: 1.2;
+   display: none;
+ }
+
+
+   /* ------------- end animation  open menu----------------- */
+    
+    .active{
+      align-self: center;
+      justify-self: center;
+    }
+    .option_icon {
+      padding-left: 1.5rem;
+  }
+  .search_li{
+    align-self: center;
+    justify-self: center;
+    scale: 1.2;
+  }
+   
+  .nabar_options{
+    transition: 0.5s ease-in-out;
+    display: block;
+    width: 0;
+    overflow: hidden;
+    position: absolute;
+    border-radius: 100%;
+    right: 5rem;
+    top: 3rem;
+ }
+    .nabar_drop_down{
+      border-radius: 0;
+      overflow:scroll;
+      transition: 0.5s ease-in-out;
+      position: absolute;
+      display: flex;
+      flex-direction: column;
+      justify-items: center;
+      gap: 2.5rem;
+      padding-block: 2rem;
+      padding-inline: 2rem;
+      top: 7.88rem;
+      right: 0;
+      background-color: #ffffff;
+      border-bottom-left-radius: 1rem 1rem;
+      border-bottom-right-radius: 1rem 1rem;
+      box-shadow: 0 0.5rem 1.1rem  #93939336;
+      width: 100%;
+      min-height: auto;
+      z-index: 98;
+    } 
+    .option{
+      align-self: center;
+      justify-self: center;
+    }
+    
+    .containers{
+      padding-left: 0;
+    }
+    
+    .container_section2_home_service {
+      display: flex;
+      flex-direction: column;
+      align-content: space-between;
+  }
+  .container{
+    padding: 0;
+    justify-content: start;
+    padding-left: 4rem;
+  }
+   /* services page */
+  .section2_home_service_title {
+    width: 100%;
+    text-align: center;
+    padding-left: 0;
+  }
+  .section2_home_service_paragraph {
+      width: 100%;
+      text-align: center;
+      padding-left: 0;
+  }
+  .home_service{
+    font-size: 10px;
+    padding-inline: 5rem;
+  }
+  .all_block_service{
+    justify-content: center;
+    padding-right: 0;
+    padding-inline: 1rem;
+  }
+  .home_contact{
+    padding-left: 6rem;
+  }
+  .services_block{
+    justify-content: center;
+    padding-left: 0;
+  }
+  /* statique */
+  .all_statistique{ 
+    flex-direction:column;
+    gap: 3rem;
+    justify-items: center;
+  }
+   .box_size_with_border{
+    align-self:center ;
+    border: none;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.074);
+     
+   }
+   .box_size{
+    align-self: center;
+   }
+  /* end statique */
+  .footer_container {
+    background-color: #094B72;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 2rem;
+    
+}
+.les_info {
+  padding-top: 0rem;
+  padding-right: 0rem;
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-self: center;
+  text-align: center;
+  gap: 10rem;
+}
+.footer_logo{
+    padding: 0;
+    padding-top: 5rem;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+/* contact page */
+.home_contact{
+  padding: 0;
+  text-align: center;
+  padding-bottom: 5rem;
+}
+.container_contact_page {
+  padding-inline: 0;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-content: space-around;
+
+}
+.container_contact_page h2{
+  align-self: center;
+}
+.contact_flex_map {
+  display: flex;
+  flex-direction: column;
+  justify-items:center;
+  padding-bottom: 5rem;
+}
+.info_client{
+   align-self: center;
+}
+.map_block{
+  padding: 0;
+  align-self: center;
+}
+.home_contact_paragraph{
+ margin: auto;
+}
+.button_contact_home{
+  margin: auto;
+}
+/* end contact page */
+
+}
+/* ------------------------------------ */
+@media  (max-width: 710px){
+  html{
+    font-size: 7.5px;
+  }
+  .container2{
+    display: none;
+  }
+  .container1{
+    width: 100%;
+    padding-left: 2rem;
+  }
+  .container_paragraph{
+    width: 100%;
+  }
+  .container1_title{
+    width: auto;
+    padding: 0;
+  }
+  .Testimonial_container_blocks{
+    scale: 1.2;
+  }
+   /* about page */
+.image_contact_man{display: none;}
+/* end about page */
+}
+
+@media  (max-width: 510px){
+  html{
+    font-size: 7.5px;
+  }
+  .Testimonial_container_blocks{
+    scale: 1.05;
+  }
+}
+@media  (max-width: 410px){
+  html{
+    font-size: 7.8px;
+  }
+}
+@media  (max-width: 410px){
+  html{
+    font-size: 5.5px;
+  }
+}
+@media  (max-width: 270px){
+  html{
+    font-size: 4px;
+  }
+}
+@media  (max-width: 170px){
+  html{
+    font-size: 3px;
+  }
+ 
+}
+   

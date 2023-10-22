@@ -4,7 +4,9 @@ body{
 html{
   font-size: 10px;
 }
-
+.green_back{
+  background-color: green !important;
+}
 /*start header*/
 *{
   box-sizing: border-box;
@@ -416,21 +418,33 @@ padding-top: 0.5rem;
   font-size: 6rem;
   padding-bottom: 4rem;
 }
+/* Customize the scrollbar track */
+ 
+::-webkit-scrollbar {
+  width: 1.2rem;
+  height: 1rem;
+ 
+}
+
+/* Customize the scrollbar thumb (the draggable part) */
+::-webkit-scrollbar-thumb {
+  background: #094060;
+}
 .hidden_Testimonial{
-  overflow: hidden;
-  width: 75.5rem;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  width: 60.3rem;
   margin: auto;
   padding-top: 5rem;
 }
 .Testimonial_container_blocks{
-   padding-block: 5rem;
+  padding-block: 5rem;
   transition: 0.5s ease-in-out;
   display: flex;
   gap: 6rem;
   justify-content: start;
-  scale: 1.5;
-  padding-left: 13.5rem;
-  transform: translateX(0);
+   padding-left: 6rem;
+   scale: 1.2;
 }
  
 .Testimonial_sou_block{
@@ -462,7 +476,7 @@ padding-top: 0.5rem;
 .Testimonial_block_comment_title{
   font-size: 2rem;
   padding: 1.4rem;
-  color: #000000;
+  color: black;
   font-weight: bolder;
 }
 .Testimonial_block_comment_paragragh{
@@ -688,9 +702,61 @@ padding-top: 8rem;
   width: 50rem;
   height: 54rem;
 }
+.container_read_more_info{
+  top: 0vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 99vw;
+  height: 100vh;
+  background-color: #00000041;
+  z-index: 100;
+  display: none;
+}
+.read_more_info{
+     padding: 5rem;
+     background-color: white;
+     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+     height: auto;
+     width: 60%;
+     border-radius: 1rem 1rem;
+     
+}
+.read_more_info p{
+  margin: auto;
+  font-size: 2rem;
+  text-align: center;
+   
+}
+.btn_read_more{
+  align-self: center;
+  position: relative;
+  overflow: hidden;
+  width: 3rem;
+  height: 3rem;
+  background-color: red;
+  border-radius: 1rem 1rem;
+  margin-bottom: 23rem;
+}
+.btn_read_more::after{
+  top: 0;
+  right: 1.2rem;
+  content: " ";
+  position: absolute;
+  width: 0.5rem;
+  height: 3rem;
+  transform: rotate(45deg);
+  background-color: white;
+  border-radius: 1rem 1rem;
+  border-radius: 1rem 1rem;
+}
+ 
+.display_flex{
+  display: flex;
+}
 
-/* <!-- end about page --> */
-
+ 
  
 
 .container_about_page{
@@ -716,7 +782,74 @@ padding-top: 8rem;
   padding-top: 8rem;
 }
 
+ /* FAQ section */
+ .faq_section{
+  padding-block: 10rem;
+  background-color: #F2F7FF;
+ }
+ .faq_section h2{
+   text-align: center;
+   font-size: 4rem;
+ }
+ .all_faq_blocks{
+   padding-top: 4rem;
+ justify-items: center;
+ text-align: center;
+ display: flex;
+ flex-direction: column;
+ gap: 5rem;
+ }
+ .all_faq_blocks h4{
+   text-align: center;
+   font-size: 2.4rem;
+ }
+ .faq_block{
+   width: 60rem;
+   margin: auto;
+   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+   background-color: white;
+   display: flex;
+   flex-direction: column;
+   border-radius: 1rem 1rem;
+   height: 8.5rem;
+   overflow-y: hidden;
+  }
+ .heighT{
+    height: auto ;
+ }
+ .faq_block p{
+  font-size: 2rem;
+  align-self: center;
+  justify-content: center;
+  padding-block: 6rem;
+  padding-inline: 3rem;
+ }
+ .title_and_buton{
+   display: flex;
+   padding-block: 3rem;
+   justify-content: center;
+   align-items: center;
+   gap: 2rem;
+   align-items: center;
+ }
+ .btn_faq{
+   width: 2rem;
+   height: 2rem;
+   position: relative;
+   overflow: hidden;
+ }
+ .btn_faq::after{
+   content: " ";
+   top: -1rem;
+   right: 0.01rem;
+   position: absolute;
+   width: 2rem;
+   height: 2rem;
+   background-color: #094060;
+   transform: rotate(45deg);
+ }
 
+ /*ens FAQ section */
   /* <!-- end about page --> */
 
   /* start service page */
@@ -740,4 +873,4 @@ padding-top: 8rem;
   /* end service page */
 
 
-  
+ 

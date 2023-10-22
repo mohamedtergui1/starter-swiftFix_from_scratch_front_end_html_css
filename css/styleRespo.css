@@ -277,26 +277,23 @@
     width: auto;
     padding: 0;
   }
-  .Testimonial_container_blocks{
-    scale: 1.2;
-  }
+   
    /* about page */
 .image_contact_man{display: none;}
 /* end about page */
 }
 
-@media  (max-width: 510px){
+@media  (max-width: 560px){
   html{
-    font-size: 7.5px;
+    font-size: 7px;
   }
-  .Testimonial_container_blocks{
-    scale: 1.05;
-  }
+  
 }
-@media  (max-width: 410px){
+@media  (max-width: 540px){
   html{
-    font-size: 7.8px;
+    font-size: 6px;
   }
+   
 }
 @media  (max-width: 410px){
   html{

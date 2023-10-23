@@ -336,8 +336,7 @@ width: 55rem;
   border-radius: 0.7rem 0.7rem;
  
 }
-.service_block_icon{ 
-}
+ 
 .service_block_title{
   font-size: 1.1rem;
   width: 16rem;
@@ -624,12 +623,14 @@ margin-inline: 1rem;
  }
  
  .input_style{
+  color: #000000;
   padding-block: 0.6rem;
   border-radius: 0.6rem 0.6rem;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   background-color: #f7f7f7;
   border-color: gainsboro;
   padding-left: 0.2rem;
+  /* border: solid 0.4rem; */
   }
   .input_style_select{
     width: 10rem;
@@ -708,7 +709,7 @@ padding-top: 8rem;
   align-items: center;
   justify-content: center;
   position: absolute;
-  width: 99vw;
+  width: 100%;
   height: 100vh;
   background-color: #00000041;
   z-index: 100;
@@ -804,7 +805,7 @@ padding-top: 8rem;
    font-size: 2.4rem;
  }
  .faq_block{
-   width: 60rem;
+   width: 58rem;
    margin: auto;
    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
    background-color: white;
@@ -850,8 +851,32 @@ padding-top: 8rem;
  }
 
  /*ens FAQ section */
+ /* add faq  section */
+ /* end add faq section */
   /* <!-- end about page --> */
-
+  .add_faq_section{
+    text-align: center;
+   padding-block: 5rem;
+   display: flex;
+   flex-direction: column;
+   gap: 5rem;
+  justify-items: fl;
+  }
+  .add_faq_section h4{
+    font-size: 3rem;
+  }
+  .inputs_faq{
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    margin: auto;
+  }
+   
+  .inputs_faq button {
+    width: 50%;
+    margin: auto;
+  }
   /* start service page */
   .service_page_container{
    padding-bottom: 4rem;

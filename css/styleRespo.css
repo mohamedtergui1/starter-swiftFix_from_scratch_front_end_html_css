@@ -27,9 +27,9 @@
      padding-block: 1rem;
      padding-inline: 3rem;
     }
-    ..services_droped{
+    .services_droped{
       position:static;
-      box-shadow: none;
+      
     }
     .tige_center_a{
       transition: 0.5s ease-in-out;

@@ -32,7 +32,6 @@
             <div class="navbar_logo_and_options">
                 <div>
                     <a href="index.html">
-
                     <span class="navbar_icon"><b>S</b></span>
                     <span class="navbar_title"><b>SwiftFix</b></span>
                    </a>
@@ -47,9 +46,7 @@
                       <svg class="tige_center_c" id="c" width="2.6rem" height="0.7rem" viewBox="0 0 26 7" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <rect x="0.824219" y="0.526367" width="24.5364" height="5.52632" rx="2" fill="#D9D9D9"/>
                         </svg>           
-                </div>
-               
-                  
+                </div>   
               <ul class="nabar_options   " id="navBar">
                     <li class="active"><a href="contact.html">CONTACT</a></li>
                     <li class="option"><a href="testimonials.html">TESTIMONIALS</a></li>
@@ -76,31 +73,41 @@
                     </svg>
                     </li>
                 </ul>
-                
             </div>
-            
               </nav>
-            
     </header>
      <!-- start contact page -->
       <section class="container_contact_page"> 
+       
            <h2 >Contact Us</h2>
          <div class="contact_flex_map">
            <div class="info_client">
-              <input class="input_style" id="first_name" type="text" placeholder="first name">
-              <input class="input_style" id="last_name" type="text" placeholder="last name">
-              <input class="input_style" id="email" type="email" placeholder="email">
+             <div><input class="input_style" id="first_name" type="text" placeholder="first name">
+              <span class="message_validate"> &nbsp;required</span>
+            </div>
+              
+              <div><input class="input_style" id="last_name" type="text" placeholder="last name">
+              <span class="message_validate">&nbsp;required</span></div>
+            <div> <input class="input_style" id="email" type="email" placeholder="email">
+            <span class="message_validate">&nbsp;required</span></div>
              <div class="flex_select">
               <label for="subject" class="label_select_contact">subject:</label>
               <select class="input_style_select" id="subject" name="subject" >
+                <option value="subject">subject</option>
                 <option value="subject1">fix</option>
                 <option value="subject2">building</option>
               </select> 
+              <span class="message_validate">&nbsp;required</span>
+
             </div> 
-              <textarea class="input_style" name="message" id="message" cols="30" rows="5" placeholder="leave message">
-              </textarea>
-              <input class="button1 input_submit" type="submit"  value="submit">
-           </div>
+            <div>
+              <textarea class="input_style" name="m" id="message" cols="30" rows="5" placeholder="leave message"></textarea>
+              
+              <span class="message_validate">&nbsp;required</span>
+              </div>
+            <input class="button1 input_submit" type="submit"  value="submit"  disabled>
+       </div>
+           
             <div class="map_block">
               <iframe title="google maps" class="google_map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6748.772144433049!2d-8.521822237640494!3d32.247693181826094!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdaefcd3cdac94a5%3A0x2cfe67e059e518d!2sYoussoufia!5e0!3m2!1sen!2sma!4v1697305324208!5m2!1sen!2sma" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>

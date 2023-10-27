@@ -1,5 +1,5 @@
 body{
-  overflow: x;
+  overflow-x: hidden;
 }
 html{
   font-size: 10px;
@@ -325,13 +325,11 @@ width: 55rem;
 .service_block{
   display: flex;
   flex-direction: column;
-  align-content: start;
   background-color: #FCFCFC;
+  gap: 0.5rem;
   width: 22rem;
-  height: 18rem;
-  padding-left: 2rem;
-  padding-top: 2rem;
-  padding-bottom: 20rem;
+  height: auto;
+   padding: 2rem;
   box-shadow: 0 0.5rem 1.5rem rgba(37, 37, 37, 0.329);
   border-radius: 0.7rem 0.7rem;
  
@@ -340,12 +338,14 @@ width: 55rem;
 .service_block_title{
   font-size: 1.1rem;
   width: 16rem;
+  height: 3.9rem;
 padding-top: 0.5rem;
 }
 .service_block_paragraph{
   font-size: 1.15rem;
   /* padding-top: 1rem; */
-  width: 13rem;
+  width: 18rem;
+  height: 6.6rem;
   color: #141313;
   font-family: Plus Jakarta Sans;
   padding-top: 0.7rem;
@@ -404,19 +404,6 @@ padding-top: 0.5rem;
     color: white;
 }
 /* end section3 statistique*/
-
-/*start section4 Testimonial */
-
-.Testimonial_container{
-  background-color:#F2F7FF;
-  padding-bottom: 5rem;
-}
-.title_Testimonial{
-  padding-top: 6rem;
-  text-align: center;
-  font-size: 6rem;
-  padding-bottom: 4rem;
-}
 /* Customize the scrollbar track */
  
 ::-webkit-scrollbar {
@@ -429,6 +416,19 @@ padding-top: 0.5rem;
 ::-webkit-scrollbar-thumb {
   background: #094060;
 }
+/*start section4 Testimonial */
+
+.Testimonial_container{
+  background-color:#F2F7FF;
+  padding-bottom: 5rem;
+}
+.title_Testimonial{
+  padding-top: 6rem;
+  text-align: center;
+  font-size: 6rem;
+  padding-bottom: 4rem;
+}
+
 .hidden_Testimonial{
   overflow-y: hidden;
   overflow-x: scroll;
@@ -445,9 +445,10 @@ padding-top: 0.5rem;
    padding-left: 6rem;
    scale: 1.2;
 }
- 
+
 .Testimonial_sou_block{
   height: 25rem;
+  overflow: scroll;
 }
 .Testimonial_block_comment{
   font-family: Poppins;
@@ -478,10 +479,18 @@ padding-top: 0.5rem;
   color: black;
   font-weight: bolder;
 }
+.Testimonial_block_comment_title{
+  width: 40rem;
+  text-align: center;
+}
 .Testimonial_block_comment_paragragh{
   font-size: 1.5rem;
   color: #2a2a2a;
   font-weight: 600;
+}
+.Testimonial_block_comment_paragragh p{
+  width: 45rem;
+  text-align: center;
 }
 .client_img_size{
   width: 5.2rem;
@@ -498,6 +507,36 @@ padding-top: 0.5rem;
 .Testimonial_container_blocks_work_client{
   color:#494949;
 }
+/* ADD testimonial */
+.add_Testimonial h4{
+  font-size: 5rem;
+  padding-block: 5rem;
+}
+.add_Testimonial div{
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.add_Testimonial input{
+  height: 4.2rem;
+  font-size: 2rem;
+}
+.add_Testimonial button{
+    width: 14rem;
+}
+.add_Testimonial{
+   
+  font-size: 1.5rem;
+  margin: auto;
+  text-align: center;
+  width: 65rem;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  gap: 4rem;
+}
+/* and _ADD testimonial */
+
 /* end section4 Testimonial */
 
 /*  start section 5 contact home  */
@@ -609,6 +648,7 @@ margin-inline: 1rem;
  }
  
  .contact_flex_map{
+  gap: 7rem;
   display: flex;
    justify-content: space-around;
  }
@@ -623,6 +663,8 @@ margin-inline: 1rem;
  }
  
  .input_style{
+  
+  width: 100%;
   color: #000000;
   padding-block: 0.6rem;
   border-radius: 0.6rem 0.6rem;
@@ -644,7 +686,7 @@ margin-inline: 1rem;
     display: flex;
     justify-content: start;
     align-items: center;
-    width: 6rem;
+    width: 36rem;
   }
   .label_select_contact{
     box-shadow:rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; ;
@@ -670,8 +712,27 @@ margin-inline: 1rem;
     padding-left: 2rem;
     padding-top: 2rem;
   }
+  .message_validate{
+    font-size: 1.2rem;
+    font-weight: 100;
+    font-family: sans-serif;
+    display:block;
+     
+  }
+  .display_block_succ{
+    display: block;
+    color: green;
+
+  }
+  .display_block_err{
+    display: block;
+    color: red;
    
-/* end contact page */
+  }
+  .with_auto{
+    width: auto;
+  }
+  /* end contact page */
 
 /* <!-- start about page --> */
 
@@ -711,9 +772,9 @@ padding-top: 8rem;
   position: absolute;
   width: 100%;
   height: 100vh;
-  background-color: #00000041;
+  background-color: #00000075;
   z-index: 100;
-  display: none;
+  display: flex;
 }
 .read_more_info{
      padding: 5rem;
@@ -722,7 +783,8 @@ padding-top: 8rem;
      height: auto;
      width: 60%;
      border-radius: 1rem 1rem;
-     
+     margin: auto;
+    height:45% ;
 }
 .read_more_info p{
   margin: auto;
@@ -738,7 +800,13 @@ padding-top: 8rem;
   height: 3rem;
   background-color: red;
   border-radius: 1rem 1rem;
-  margin-bottom: 23rem;
+  margin: 1rem;
+}
+.read_more_info h5 {
+  text-align: center;
+  margin: auto;
+  font-size: 3rem;
+  margin-bottom: 1rem;
 }
 .btn_read_more::after{
   top: 0;
@@ -800,7 +868,7 @@ padding-top: 8rem;
  flex-direction: column;
  gap: 5rem;
  }
- .all_faq_blocks h4{
+ .all_faq_blocks h3{
    text-align: center;
    font-size: 2.4rem;
  }
@@ -860,7 +928,7 @@ padding-top: 8rem;
    display: flex;
    flex-direction: column;
    gap: 5rem;
-  justify-items: fl;
+   
   }
   .add_faq_section h4{
     font-size: 3rem;
@@ -894,6 +962,14 @@ padding-top: 8rem;
   .services_block{
     justify-content: center;
     padding-left: 25rem;
+  }
+  .service_btn_read_more{
+    width: 13rem;
+    font-size: 1.4rem;
+    justify-self:start ;
+    height: 4rem;
+    margin: 0;
+    padding: 0;
   }
   /* end service page */
 

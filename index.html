@@ -72,13 +72,13 @@
                     <li class="search_li"> 
                         <input class="search_input" id="Search_input" type="search">
 
-                        <label for="search">
-                        <svg class="option_icon" id="icon_search"  width="2rem" height="2rem" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <!-- <label for="icon_search"> -->
+                        <svg class="option_icon"  id="icon_search"  width="2rem" height="2rem" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                           <path
                               d="M21 21L15 15L21 21ZM17 10C17 10.9193 16.8189 11.8295 16.4672 12.6788C16.1154 13.5281 15.5998 14.2997 14.9497 14.9497C14.2997 15.5998 13.5281 16.1154 12.6788 16.4672C11.8295 16.8189 10.9193 17 10 17C9.08075 17 8.1705 16.8189 7.32122 16.4672C6.47194 16.1154 5.70026 15.5998 5.05025 14.9497C4.40024 14.2997 3.88463 13.5281 3.53284 12.6788C3.18106 11.8295 3 10.9193 3 10C3 8.14348 3.7375 6.36301 5.05025 5.05025C6.36301 3.7375 8.14348 3 10 3C11.8565 3 13.637 3.7375 14.9497 5.05025C16.2625 6.36301 17 8.14348 17 10Z"
                               stroke="#2D2F30" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                       </svg>
-                    </label>
+                    <!-- </label> -->
                       </li>
                        
                 </ul>
@@ -248,7 +248,7 @@
     <!-- end  section 3-->
     <!-- start section4 Testimonial -->
     <section class="Testimonial_container">
-        <h2 class="title_Testimonial">Clients Testimonial</h2>
+        <h2 class="title_Testimonial">Clients Testimonials</h2>
     <div class="hidden_Testimonial">
         <div class="Testimonial_container_blocks" id="testimonials_id">
              <div class="Testimonial_block">
@@ -269,13 +269,14 @@
             </div>
             <div class="Testimonial_block">
                 <div class="Testimonial_block_comment">
-                    <div class="Testimonial_block_comment_title"> Dependable, Responsive, Professional Partner <br>
+                    <div class="Testimonial_block_comment_title"> <p>Dependable, Responsive, Professional Partner <br></p>
                     </div>
-                    <div class="Testimonial_block_comment_paragragh"> Fermin Apps has collaborated with Landify team for
+                    <div class="Testimonial_block_comment_paragragh"><p> Fermin Apps has collaborated with Landify team for
                         several projects such as Photo Sharing Apps and Custom Social Networking Apps. The experience
-                        has been pleasant, professional and exceeding our expectations. </div>
-                </div>
-                <div class=" Testimonial_container_blocks_nom_client">
+                        has been pleasant, professional and exceeding our expectations.  </p></div>
+                   
+                    </div>
+                <div class="Testimonial_container_blocks_nom_client">
                     <img class="client_img_size" src="images/elmorjani.jpg" alt="client">
                     <div>
                         <h2 class="Testimonial_container_blocks_nom_client_font">El Morjani Mohamed</h2>
@@ -285,7 +286,7 @@
             </div>
             <div class="Testimonial_block">
                 <div class="Testimonial_block_comment">
-                    <div class="Testimonial_block_comment_title"> Incredible Experience <br></div>
+                    <div class="Testimonial_block_comment_title"> <p>Incredible Experience </p> </div>
                     <div class="Testimonial_block_comment_paragragh"> We had an incredible experience working with
                         Landify and were impressed they made such a big difference in only three weeks. Our team is so
                         grateful for the wonderful improvements they made and their ability to get familiar with the
@@ -301,11 +302,11 @@
             </div>
             <div class="Testimonial_block">
                 <div class="Testimonial_block_comment">
-                    <div class="Testimonial_block_comment_title"> Dependable, Responsive, Professional Partner <br>
+                    <div class="Testimonial_block_comment_title"><p> Dependable, Responsive, Professional Partner</p>
                     </div>
-                    <div class="Testimonial_block_comment_paragragh"> Fermin Apps has collaborated with Landify team for
+                    <div class="Testimonial_block_comment_paragragh"><p>Fermin Apps has collaborated with Landify team for
                         several projects such as Photo Sharing Apps and Custom Social Networking Apps. The experience
-                        has been pleasant, professional and exceeding our expectations. </div>
+                        has been pleasant, professional and exceeding our expectations. </p></div>
                 </div>
                 <div class=" Testimonial_container_blocks_nom_client">
                     <img class="client_img_size" src="images/client2.png" alt="client">
@@ -319,6 +320,18 @@
         </div>
      </div>
     </section>
+    <section class="add_Testimonial">
+        <h4>add  Testimonial</h4>
+         <input type="text" class="input_style with_auto" id="f_n_tsts" placeholder="fullname">
+         <input type="text" class="input_style with_auto" id="job_tst" placeholder="your job">
+         <input type="text" class="input_style with_auto" id="title_tst" placeholder="title">
+         <textarea class="input_style with_auto" name="message_of_cleint" id="txt_ar" cols="30" rows="10" placeholder="leave message"></textarea>
+         <div>
+         <label for="Photo">uplaod</label>
+         <input type="file" name="image" class="input_style " id="Photo"></div>
+         <button class="button1" id="btn_add_tist">submit</button>
+     </section>
+
     <!-- end section4 Testimonial -->
     <!-- start section5 contact home -->
     <section class="home_contact">

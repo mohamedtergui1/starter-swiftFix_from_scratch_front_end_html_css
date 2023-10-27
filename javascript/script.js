@@ -38,9 +38,17 @@ buttonServices.addEventListener('click',function() {
 
   }
 });
-if(window.innerWidth>=1023){
-  dropservices.style.position='absolute'
-} 
+function respo(){
+  if(window.innerWidth>=1023){
+    dropservices.style.position='absolute'
+  } 
+  else{
+    dropservices.style.position='static'
+  } 
+  setTimeout(respo,500)
+  }
+  respo();
+
 
 // //////////////////////////////////////
  
@@ -48,5 +56,6 @@ if(window.innerWidth>=1023){
  
 
     // -------------------------------------------
-
+    
+    
     
